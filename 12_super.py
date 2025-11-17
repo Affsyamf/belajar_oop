@@ -8,7 +8,6 @@ class Hero:
         
 class hero_intel(Hero):
     def __init__(self, name):
-        # Hero.__init__(self, name, 100)
         super().__init__(name, 100)
         super().showinfo()
 
