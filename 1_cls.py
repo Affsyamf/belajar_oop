@@ -1,9 +1,10 @@
 class Hero: 
-    pass
+    def __init__(self,x):
+        print("Hallo", x)
 
-hero1 = Hero()
-hero2 = Hero()
-hero3 = Hero()
+hero1 = Hero(10)
+hero2 = Hero(20)
+hero3 = Hero(39)
 
 hero1.name = "granger"
 hero1.attack = 100
